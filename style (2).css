@@ -1,0 +1,249 @@
+/* Resetting default margin, font, and box-sizing for all elements */
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/* Styling for the navbar */
+.navbar {
+    height: 60px;
+    background-color: #5b038e;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Styling for the navigation logo */
+.nav-logo {
+    height: 88px;
+    width: 72px;
+}
+
+/* Background image styling for the logo */
+.logo {
+    background-image:picarts.png;
+    background-size: cover;
+    height: 82px;
+    width: 69px;
+}
+
+/* Border styling for elements */
+.border {
+    border: 2px solid transparent;
+}
+
+/* Border styling on hover */
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Styling for the address section in the navbar */
+.add-first {
+    color: #ffffff;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.fa-solid{
+    margin-right: 0px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the search section in the navbar */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+/* Styling for the search select dropdown */ 
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+/* Styling for the search input field */
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Styling for the search icon */
+.search-icon {
+    width: 45px;
+    display: flex;
+    background-color: #c648dc;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:#ffffff
+}
+.search-icon:hover {
+    transform: scale(1.05);
+}
+
+span{
+       font-size: 0.7rem;
+}
+
+/* box 6 */
+.nav-second{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+.nav-cart i{
+font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85px;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+     color: rgb(255, 255, 255);
+     align-items: center;
+     justify-content: space-evenly;
+    
+}
+.panel-options p{
+    display: inline;
+    margin: 10px;
+
+  
+}
+.panel-options{
+    width: 70%;
+    font:size 0.85em; ;
+}
+
+.panel-deals {
+    background-color: #fffcfc;
+    font-style:normal;
+    border-radius: 10px;
+    display: inline-block;
+    color: #000000;
+    transition: transform 0.3s ease-in-out;
+    font-size: 14px;
+    
+  }
+  .panel-deals:hover {
+           transform: scale(1.05);
+           box-shadow: 0 0 5px #000000;
+  }
+/* hero section or below border */
+.hero-section{
+    display: flex;
+     background-image: url(HeaderTitle.png);
+     height: 350px;
+     width:100%;
+     background-size: cover;
+     align-items: flex-end;
+     justify-content: center;
+    
+}
+
+
+/* Shop-Section */
+ .shop-section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color:#e2e7e6 ;
+    margin-top: 100px;
+    margin-bottom: 00px; 
+ }
+ /* CSS for the fake header */
+.fake-header {
+    background-color:#624c88;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* CSS for the boxes */
+  .box {
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black; /* Adding black border */
+  }
+  
+  .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Style for the background images */
+  .box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+  #box1 {
+    background-image: url('programming.png');
+   
+  }
+  
+  #box2 {
+    background-image: url('CHEMISTRY.png'); 
+  }
+  #box3{
+    background-image: url('PHYSICS.png');
+  }
+  #box4{
+    background-image: url('maths.png');
+  }
+  footer {
+    background-color:#cccc;
+    padding: 9px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:black;
+    height: 45px;
+   
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
